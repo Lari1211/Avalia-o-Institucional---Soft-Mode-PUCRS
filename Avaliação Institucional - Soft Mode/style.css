@@ -1,0 +1,401 @@
+/* CSS - página inicial */
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+main {
+    background: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    width: 1310px;
+    height: 650px;
+}
+.logo {
+    width: 200px;
+    height: 90px;
+    position: absolute;
+    left: 45%;
+    top: 2%;
+    bottom: 9.12%;
+}
+.container_informacao {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: initial;
+    width: 950px;
+    height: 420px;
+    border-radius: 4px;
+    margin: 120px 0px;
+}
+.descricao_informacao h1 {
+    color: #002A3F;
+    align-items: center;
+    display: flex;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    width: 459px;
+    height: 100px;
+    margin: 28px 0px 0px 68px;
+}
+
+.descricao_informacao p {
+    width: 462px;
+    height: 143px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #002A3F;
+    margin: -21px 68px;
+}
+.imagem_inicio {
+    margin: 78px -53px;
+}
+.imagem_inicio img {
+    object-fit: cover;
+}
+.btn {
+    background: #E42459;
+    border-radius: 4px;
+    color: white;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    gap: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 458px 0px 0px -3px;
+}
+
+/* CSS - Fim página inicial */
+
+/* CSS - Início página avaliação  */
+
+.main_avaliacao {
+    background: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    width: 1294px;
+    height: 2840px;
+}
+.container_avaliacao {
+    background: #FFFFFF;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 30px;
+    gap: 80px;
+    width: 950px;
+    height: 2680px;
+    margin: 120px 0px;
+}
+.banner {
+    padding-right: 32px;
+}
+.p_avaliacao {
+    color:#002A3F;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    padding-right: 535px;
+}
+.botoes_avaliacao {
+    border: none;
+    border-radius: 100px;
+    display: flex;
+    margin: -50px 148px 0px 0px;
+}
+.li_avaliacao {
+    list-style-type: none;
+    font-size: 16px;
+    margin: 0px 17px 0px 5px;
+    background-color: #DFE5E8;
+    border-radius: 100px;
+    padding: 12px 18px 12px 18px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #35454C;
+    cursor: pointer;
+}
+.li_avaliacao:active {
+    background-color: #005288;
+    color: white;
+}
+.p_avaliacao2 {
+    color:#002A3F;;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    margin: 10px 58px 0px 37px;
+}
+.caixa_check_box {
+    background: #EFF2F3;
+    border-radius: 4px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 10px;
+    width: 880px;
+    height: 20px;
+    margin: -40px 0px -22px 0px;
+    appearance: none;
+    font-size: 16px;
+    font-family: 'Montserrat';
+}
+.caixa_check_box:active {
+    border: 1px solid #004674;
+    border-radius: 4px;
+    background: rgba(0, 81, 190, 0.1);
+    color: #002D4B;
+}
+.check_box {
+    width: 1.3em;
+    height: 1.3em;
+    background-color:#FFFFFF;;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #B7B7B7;
+    appearance: none;
+    cursor: pointer;
+}
+.check_box:checked {
+    border: 5px solid #004B88;
+}
+.input_text {
+    background: #FFFFFF;
+    border-radius: 4px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 10px;
+    width: 880px;
+    height: 20px;
+    margin: 0px 0px -22px 0px;
+    border: 2px solid #EFF2F3;
+    outline: 0;
+    font-family: 'Montserrat';
+}
+.input_text:focus {
+    border: 2px solid #004674;
+    border-radius: 4px;
+}
+.p_avaliacao5 {
+    color:#002A3F;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    padding-right: 588px;
+}
+.caixa_check_box5 {
+    background: #EFF2F3;
+    border-radius: 4px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 10px;
+    width: 880px;
+    height: 20px;
+    margin: -60px 0px 0px 0px;
+    appearance: none;
+    font-size: 16px;
+    font-family: 'Montserrat';
+}
+.caixa_check_box5:active {
+    border: 1px solid #004674;
+    border-radius: 4px;
+    background: rgba(0, 81, 190, 0.1);
+    color: #002D4B;
+}
+.check_box5 {
+    width: 1.3em;
+    height: 1.3em;
+    background-color:#FFFFFF;;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #B7B7B7;
+    appearance: none;
+    cursor: pointer;
+    margin: 0px 0px 0px 417px;
+}
+.check_box5:checked {
+    border: 5px solid #004B88;
+}
+.p_avaliacao6 {
+    color:#002A3F;;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    margin: 0px 154px 0px 0px;
+}
+.sobre_disciplina {
+    width: 960px;
+}
+.concordancia_disciplina {
+    display: flex;
+    text-align: center;
+    width: 803px;
+    margin: -65px 0px 0px 217px;
+    font-family: 'Montserrat';
+}
+.concordancia_disciplina p {
+    width: 125px;
+}
+.ul_disciplina {
+    width: 250px;
+    position: absolute;
+    display: inline-block;
+}
+.li_disciplina {
+    color: #35454C;
+    list-style-type: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 150%;  
+    margin: 15px 42px 0px -39px;
+    display: inline-block;  
+}
+.checkbox_disciplina {
+    display: inline-block;
+    margin: 0px 0px 0px 226px;
+    width: 800px;
+}
+.check_box_disciplina {
+    width: 1.3em;
+    height: 1.3em;
+    background-color:#FFFFFF;;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #B7B7B7;
+    appearance: none;
+    cursor: pointer;
+    display: inline-block;
+    margin: -70px 93px 20px 10px;
+}
+.check_box_disciplina:checked {
+    border: 5px solid #004B88;
+}
+.btn_a {
+    background: #E42459;
+    border-radius: 4px;
+    color: white;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    gap: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 633px 0px 0px 0px;
+}
+
+/* CSS - Fim página avaliação  */
+
+/* CSS - Início mensagem de avaliação */
+
+.container_mensagem_avaliacao {
+    background: #FFFFFF;
+    width: 950px;
+    height: 413.09px;
+    margin: 120px 0px;
+}
+.img_avaliacao {
+    width: 200px;
+    height: 90px;
+    position: relative;
+    left: 40%;
+    top: 17%;
+    bottom: 9.12%;
+}
+.img_avaliacao img{
+    width: 200px;
+}
+.p_mensagem_avaliacao {
+    color: #002A3F;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    margin: 168px 0px 0px 0px;
+    text-align: center;
+    font-weight: bold;
+}
+.texto_avaliacao {
+    color: #002A3F;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.01rem;
+}
+.a_portal {
+    color: #005187;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0.01rem;
+    margin: 0px 0px 0px 398px;
+}
+
+/* CSS - Fim mensagem de avaliação */
+
+/* CSS - Início mensagem de limite */
+
+.container_mensagem_limite {
+    background: #FFFFFF;
+    width: 950px;
+    height: 342.09px;
+    margin: 120px 0px;
+}
+.img_limite {
+    width: 200px;
+    height: 90px;
+    position: relative;
+    left: 40%;
+    top: 18%;
+    bottom: 9.12%;
+}
+.img_limite img{
+    width: 200px;
+}
+.p_mensagem_limite {
+    color: #002A3F;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    margin: 140px 0px 0px 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* CSS - Fim mensagem de limite */
+
+
